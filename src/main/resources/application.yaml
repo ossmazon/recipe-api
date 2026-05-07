@@ -1,3 +1,5 @@
 spring:
   application:
     name: recipe-api
+server:
+  port: 9090
