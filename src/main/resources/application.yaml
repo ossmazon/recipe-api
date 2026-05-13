@@ -3,3 +3,7 @@ spring:
     name: recipe-api
 server:
   port: 9090
+jwt:
+  secret: ${JWT_SECRET:fallback-dev-secrect}
+  expiration:
+    ms: 86400000
